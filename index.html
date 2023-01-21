@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3fd29d2f55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"><span> R</span>ohan<span>.</span> </h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li> <a href="https://drive.google.com/file/d/1V97IhoUP6LN6FBU-xlFAsowWPgFFUS2u/view" download="image/cv.png.pdf" target="_blank"><i class="fa-light fa-cloud-arrow-down"></i> CV</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p> Full Stack Web Developer </p>
+                <h1>Hi,I'am <span>  Rohan</span> <br>From Vita Maharshtra</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------about------------------------>
+    <div id="about">
+        <div id="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/profile.png.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A Skilled full stack developer and quick learner who can quickly adapt to new environments. Looking for a challenging role in the industry to utilize skills and learn.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                               <li> <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt=""> Java</li>
+                               <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt=""> JavaScript</li>
+                               <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt=""> HTML</li>
+                               <li><img src="https://img1.gratispng.com/20180421/eqq/kisspng-css3-cascading-style-sheets-logo-html-markup-langu-5adbf15bd9e9b9.6634458615243636118926.jpg" alt=""> CSS</li>
+                               <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt=""> ReactJs</li>
+                               <li><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt=""> Git/Github</li>
+                               <li><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" alt=""> Postman</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                           <ul>
+                               <h3>No Experience right now</h3>
+                           </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <h3>Bachelor of Commerce(Bcom)</h3>
+                                <li>Balawant college vita shivaji university</li>
+                                <h3>FullStack devloper</h3>
+                                <li>masai school</li>
+                            </ul>
+                         </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-------------------services---------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <p>VISIT MY PROJECTS AND KEEP YOUR FEEDBACK</p>
+            <h1 class="sub-title">My Projects</h1>
+              <div class="work-list">
+                     <div class="work">
+                    
+                         <img src="https://d1gzz21cah5pzn.cloudfront.net/img/websites/f/fir/firstcry.com-desktop@2x.1646858035.jpg" alt="">
+                         <div class="layer">
+                            <h3>Firstcry</h3>
+                            <p> India's Largest Online Store for newborn, baby & kids products. Shop from the best range of Toys, Diapers, Clothes, Footwear, Strollers,etc</p>
+                            <a href="https://github.com/adityarajbenn/firstCry/tree/main" target="_blank"><i class="fa-solid fa-link" target="_blank"></i>GitHub</a>
+                            <a href="https://firstcry-clone.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+
+                         </div>
+                    
+                     </div>
+                     <div class="work">
+                        <img src="https://d1gzz21cah5pzn.cloudfront.net/img/websites/s/ski/skinstore.com-desktop@2x.1652819931.jpg" alt="">
+                         <div class="layer">
+                            <h3>SkinStore</h3>
+                            <p> SkinStore is an authorized retailer to 100s of premium beauty brands across skin, makeup and hair including SkinCeuticals, Dermalogica, Caudalie, Alterna,etc</p>
+                            <a href="https://github.com/Prathamesh52-28/Skin_Care_Clone" target="_blank"><i class="fa-solid fa-link"></i>GitHub</a>
+                            <a href="https://hilarious-donut-4d9a54.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+
+                         </div>
+                    
+                       
+                   
+                    </div>
+                 
+               </div>
+                
+            
+        </div>
+    </div>
+    <!-----------------------contact --------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> rohanghadge97660504@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> 7620706408</p>
+                    <div class="social-icon">
+                       
+                        <a href="mailto:rohanghadge97660504@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="www.linkedin.com/in/rohan-ghadge-73963923b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Rohan1366" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <button class="btn btn2">
+                        <a href="" download="">download CV</a>
+                    </button>    
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" id="" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="number" name="number" id="" placeholder="Enter Your Mobile Number" >
+                        <textarea name="massage"  rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © 2022. All rights reserved by Rohan. </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontens=document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontens){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+
+     
+        }
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
